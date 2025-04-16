@@ -4,7 +4,7 @@ class SudokuGenerator:
     def __init__(self, row_length, removed_cells):
         self.row_length = row_length
         self.removed_cells = removed_cells
-        self.box_length = 3  # 因为9x9数独是3x3小格子
+        self.box_length = 3
         self.board = [[0 for _ in range(row_length)] for _ in range(row_length)]
 
     def get_board(self):
